@@ -88,10 +88,6 @@ h5 {
     font-size: 2rem;
 }
 
-h6 {
-    font-size: 2.5rem;
-}
-
 a {
     font-size: 3rem;
 }
@@ -142,9 +138,10 @@ header {
     align-items: center; 
     padding: 20px;
     width: 100%;
+    font-size: 4.5rem;
 }
 
-.socials a {
+.socials i {
     margin: 0 2%;
 }
 
@@ -217,7 +214,12 @@ header {
     padding-bottom: 5%;
 }
 
-.menu-item h6 {
+.menu-item h4 {
+    /* text-align: left; */
+    font-size: 2.5rem;
+}
+
+.item-price {
     text-align: right;
 }
 

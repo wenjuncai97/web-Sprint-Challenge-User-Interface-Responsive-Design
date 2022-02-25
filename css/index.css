@@ -116,13 +116,14 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .nav1 {
     display: flex;
     width: 80%;
     justify-content: space-evenly;
+    color: rgb(225, 239, 230);
 }
 
 .socials { 
@@ -131,9 +132,10 @@ header {
     align-items: center; 
     padding: 20px;
     width: 100%;
+    font-size: 4.5rem;
 }
 
-.socials a {
+.socials i {
     margin: 0 2%;
 }
 
