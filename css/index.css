@@ -132,7 +132,7 @@ header {
     align-items: center; 
     padding: 20px;
     width: 100%;
-    font-size: 4.5rem;
+    font-size: 3rem;
 }
 
 .socials i {
@@ -314,13 +314,46 @@ footer h5 {
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
+    .topheader {
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
     
+    .topheader h1 {
+        font-size: 6rem;
+    }
+    
+    .menunav {
+        flex-direction: column;
+    }
+    
+    .nav1 {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20%;
+    }
+    
+    .social { 
+        flex-direction: row;
+    }
+ 
+    .social i {
+        font-size: 4rem;
+        margin: 0 2%;
+    }
 
     /* gallery section */
     .gallery-container {
         height: auto;
+        padding: 0;
+        flex-direction: column;
     }
-    
+
+    .gallery-container img {
+        padding: 5% 0;
+    }
+
     /* about us section */
 
     .about {
@@ -365,4 +398,42 @@ footer h5 {
         padding-top: 2.5vh;
         font-size: 2rem;
     }
+    
+    .footer-container {
+        display:flex;
+        flex-direction:column;
+        text-align:center;
+        justify-content: space-evenly;
+    }
+
+    footer .sub1 {
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        padding: 0 20%;
+    }
+    
+    footer .sub1 input {
+        width: 100%;
+    }
+    footer .sub2 {
+        display:flex;
+        flex-direction:column;
+        text-align:center;
+        width: 100%;
+    }
+
+    footer h3 {
+        font-size: 3rem;
+        display: flex;
+        align-items: center;
+    }
+    footer h5 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+
 }
